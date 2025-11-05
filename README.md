@@ -9,22 +9,22 @@ Users will be able to view changes over time, compare age groups, and examine HA
 
 **App Layout**
 <u>Inputs</u> 
-*Upload dataset (default = GBD 2019 HAQ dataset CSV)
-*Select country / location
-*Select year 
-*Select age-group type (overall, young, working, post-working)
-*Select measure type (Index, MIR, RSD)
-*Select indicator (optional for detailed drill-down)
+* Upload dataset (default = GBD 2019 HAQ dataset CSV)
+* Select country / location
+* Select year 
+* Select age-group type (overall, young, working, post-working)
+* Select measure type (Index, MIR, RSD)
+* Select indicator (optional for detailed drill-down)
 <u>Outputs</u>
-*Summary statistics table showing HAQ values and uncertainty intervals
-*Visualization(s):
-  *Bar plot comparing HAQ Index between 1990 and 2019
-  *Scatterplot comparing HAQ Index vs MIR/RSD
-  *Line plot (if user selects multiple years) to show HAQ change 
-*text description summarizing the selection (ex: location + result interpretation)
-*Optional CSV export of filtered output
+* Summary statistics table showing HAQ values and uncertainty intervals
+* Visualization(s):
+  * Bar plot comparing HAQ Index between 1990 and 2019
+  * Scatterplot comparing HAQ Index vs MIR/RSD
+  * Line plot (if user selects multiple years) to show HAQ change 
+* text description summarizing the selection (ex: location + result interpretation)
+* Optional CSV export of filtered output
 <u>UI description text</u>
-*At the top, include a brief description explaining what HAQ Index measures, why the 32 causes are included, and how the index reflects access + quality of care.
+* At the top, include a brief description explaining what HAQ Index measures, why the 32 causes are included, and how the index reflects access + quality of care.
 
 **Features**
 * Load default GBD 2019 HAQ CSV or a user-uploaded file
